@@ -1,0 +1,51 @@
+#myNotice {
+  display: flex;
+  padding-top: 32px;
+  flex-wrap: wrap;
+  gap: 2%;
+
+}
+
+.my-reminder {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.my-title {
+  width: 100%;
+   max-width: 100%;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding-left: 8px;
+  box-sizing: border-box;
+  resize: none;
+}
+.my-note {
+  font-size: 18px;
+  width: 100%;
+  resize: none;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding-left: 8px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.note-footer-btn {
+  display: flex;
+  align-items: start;
+  gap: 4px;
+}
+.note-date {
+  padding-right: 8px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: end;
+}

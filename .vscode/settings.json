@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.fullReload": false,
+  "liveServer.settings.NoBrowser": false,
+  "liveServer.settings.showOnStatusbar": true,
+  "editor.suggest.showStatusBar": true,
+  "problems.showCurrentInStatus": true
+}

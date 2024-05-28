@@ -1,0 +1,58 @@
+header {
+  box-shadow: 1px 2px 8px rgb(146, 148, 148);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+headarea {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  justify-content: space-between;
+  gap: 8px;
+}
+headarea img {
+  width: 50px;
+}
+
+#notes {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
+}
+#notes a {
+  text-decoration: none;
+  color: black;
+  font-family: ProtestRiot-Regular, sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+#notes a:hover {
+  text-decoration: underline;
+}
+.search {
+  display: flex;
+  margin-right: 2%;
+  overflow: hidden;
+  justify-content: end;
+}
+.delete {
+  background-color: transparent;
+  width: 20px;
+  border-radius: 0 10px 10px 0;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+#inputSearch {
+  background-image: url("/assets/img/lupe.svg");
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px 0px 0px 10px;
+  overflow: hidden;
+}

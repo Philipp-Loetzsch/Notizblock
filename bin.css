@@ -1,0 +1,52 @@
+#myBin {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.my-bin {
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  overflow: hidden;
+}
+.my-bin-title {
+  font-size: 24px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 0 0 0 8px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 200px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.4);
+  resize: none;
+  box-sizing: border-box;
+  cursor: default;
+}
+.my-bin-note {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding-left: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: 0.5px solid black;
+  resize: none;
+}
+#emptyBin {
+  display: flex;
+  text-align: center;
+  padding: 24px;
+  background-color: rgb(195, 79, 79);
+  border-radius: 10px;
+  font-size: 24px;
+}
+.closeBin {
+  background-color: red;
+  padding: 8px;
+}

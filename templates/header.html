@@ -1,0 +1,17 @@
+<headarea class="max-width">
+  <div id="notes" onclick="jumpToTextinput();closeBin(); editNotice()">
+    <img src="./assets/img/logo.svg" alt="Logo" />
+    <a href="#">NOTIZBUCH</a>
+  </div>
+
+  <form class="search" onsubmit=" return false">
+    <input
+      class="f-main"
+      type="search"
+      id="inputSearch"
+      onkeyup="searchNote()"
+      onkeydown="noSubmit(event)"
+      placeholder="Suche Titel oder Notiz"
+    />
+  </form>
+</headarea>

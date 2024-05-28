@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philipps Noteapp</title>
+    <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="bin.css" />
+    <link rel="stylesheet" href="mynotice.css" />
+    <link rel="stylesheet" href="./templates/header.css" />
+    <link rel="stylesheet" href="./templates/footer.css" />
+    <link rel="stylesheet" href="./templates/global.css" />
+    <link rel="stylesheet" href="./templates/fonts.css" />
+    <link rel="stylesheet" href="./animations/animation.css" />
+    <link rel="stylesheet" href="./animations/animation.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script src="globalvariables.js"></script>
+    <script src="onload.js"></script>
+    <script src="./animations/animation.js"></script>
+    <script src="script.js"></script>
+    <script src="mynotice.js"></script>
+    <script src="bin.js"></script>
+    <script src="local-save.js"></script>
+    <script src="prepare.js"></script>
+    <script src="./templates/change-class.js"></script>
+    <script src="search.js"></script>
+    <script src="event.js"></script>
+   
+  </head>
+  <body onload="includeHTML();loadLocal()">
+    <header w3-include-html="./templates/header.html"></header>
+    <main class="max-width f_main">
+      <section id="menu-list">
+        <button
+          class="menu-btn"
+          title="Neue Notiz"
+          onclick="jumpToTextinput(); closeBin(); deleteSearch()"
+        >
+          <h2 class="r-dnone">Neue Notiz</h2>
+          <img src="./assets/img/bleistift.svg" alt="Notizen" />
+        </button>
+
+        <button
+          class="menu-btn"
+          title="Papierkorb"
+          onclick="toggleBin(); deleteSearch()"
+        >
+          <h2 class="r-dnone">Papierkorb</h2>
+
+          <img
+            src="./assets/img/papierkorb.svg"
+            alt="Papierkorb"/>
+        </button>
+        <button class="d-none f-main" id="clearBinAll" onclick="clearBinAll()">
+          Papierkorb leeren
+        </button>
+      </section>
+      <section class="w-100 m-content">
+        <article id="content" class="d-flex">
+          <form
+            class="note-form"
+            id="note-field"
+            onsubmit="addNotice(); return false;"
+          >
+            <input
+              type="text"
+              name="title"
+              id="title"
+              class="title f-main"
+              placeholder="Titel"
+            />
+            <textarea
+              type="text"
+              name="notice"
+              id="notice"
+              class="notice f-main"
+              placeholder="Neue Notiz"
+              rows="4"
+              cols="50"
+              oninput="adjustTextareaHeight(this)"
+              required
+            ></textarea>
+            <div id="btnInput">
+              <button id="save" title="Speichern" type="submit"></button>
+              <button
+                id="reset"
+                type="button"
+                title="Inputfelder leeren"
+                onclick="clearNote()"
+              ></button>
+            </div>
+          </form>
+
+          <div id="myNotice"></div>
+        </article>
+        <article id="myBin" class="d-none"></article>
+      </section>
+    </main>
+    <footer w3-include-html="./templates/footer.html"></footer>
+  </body>
+</html>

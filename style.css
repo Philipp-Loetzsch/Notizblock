@@ -1,0 +1,47 @@
+#menu-list {
+  padding-left: 24px;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+#content {
+  flex-direction: column;
+  text-align: center;
+  padding-right: 24px;
+}
+#btnInput {
+  margin-top: 16px;
+}
+.m-content {
+  margin-left: 32px;
+}
+.note-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  padding-right: 2%;
+}
+.title {
+  font-size: 32px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding-left: 8px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.notice {
+  font-size: 24px;
+  width: 100%;
+  resize: none;
+  min-height: 150px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding-left: 8px;
+  box-sizing: border-box;
+}

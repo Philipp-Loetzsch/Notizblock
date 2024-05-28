@@ -1,0 +1,91 @@
+@media screen and (max-width: 1100px) {
+  .my-bin {
+    width: 48%;
+  }
+  .my-reminder {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* styles.css */
+
+  .m-content {
+    margin-left: 8px;
+  }
+  #menu-list {
+    gap: 16px;
+  }
+  .r-dnone {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .my-bin {
+    width: 100%;
+    margin-right: 4px;
+  }
+  #emptyBin {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .my-reminder {
+    width: 100%;
+  }
+  .note-form {
+    padding-right: 0;
+  }
+  #clearBinAll {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* styles.ccs */
+
+  #menu-list {
+    padding-left: 8px;
+  }
+  #clearBinAll {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  /* header.css */
+  #notes {
+    gap: 8px;
+  }
+  header img {
+    width: 25px;
+    height: 25px;
+  }
+  .delete {
+    font-size: 12px;
+    padding-right: 4px;
+  }
+  #notes a {
+    font-size: 20px;
+  }
+  #inputSearch {
+    font-size: 10px;
+    background-position: 5px 50%;
+    padding: 12px 0px 12px 30px;
+  }
+  headarea {
+    padding: 8px;
+  }
+  /* footer.css */
+
+  #copyright {
+    flex-direction: column;
+    margin-top: 8px;
+  }
+  #profileImg {
+    margin-top: 16px;
+    margin-left: 0;
+  }
+  .inner-footer {
+    width: auto;
+  }
+}

@@ -1,0 +1,83 @@
+button {
+  border: none;
+  font-size: 32px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+#save {
+  background-color: rgb(93, 158, 178);
+  border-radius: 5px;
+  background-image: url(./assets/img/save.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+#reset {
+  background-color: rgb(253, 210, 132);
+  border-radius: 5px;
+  background-image: url(./assets/img/reload.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+#clearBinAll {
+  font-size: 16px;
+  background-color: brown;
+  border-radius: 10px;
+  padding: 12px;
+  width: max-content;
+}
+.bin {
+  background-color: rgba(212, 111, 86, 1);
+  border-radius: 5px;
+  background-image: url(./assets/img/papierkorb.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+.prepare {
+  background-color: rgba(86, 212, 107, 1);
+  border-radius: 5px;
+  background-image: url(./assets/img/save.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+.recover {
+  background-color: rgba(86, 212, 107, 1);
+  border-radius: 5px;
+  background-image: url(./assets/img/recover.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+.menu-btn {
+  font-family: ProtestRiot-Regular;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
+}
+.menu-btn:hover {
+  box-shadow: none;
+  text-decoration: underline;
+}
+.menu-btn:focus {
+  box-shadow: none;
+}
+.menu-btn img {
+  height: 64px;
+}
