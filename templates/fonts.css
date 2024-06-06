@@ -1,10 +1,10 @@
 @font-face {
   font-family: "ProtestRiot-Regular";
-  src: url("/assets/fonts/ProtestRiot-Regular.ttf") Format("truetype");
+  src: url("/noteapp/assets/fonts/ProtestRiot-Regular.ttf") Format("truetype");
 }
 @font-face {
   font-family: "ShantellSans";
-  src: url("/assets/fonts/ShantellSans.ttf") Format("truetype");
+  src: url("/noteapp/assets/fonts/ShantellSans.ttf") Format("truetype");
 }
 .f-main {
   font-family: ShantellSans, sans-serif;

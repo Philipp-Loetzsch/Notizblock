@@ -46,7 +46,7 @@ headarea img {
   box-sizing: border-box;
 }
 #inputSearch {
-  background-image: url("/assets/img/lupe.svg");
+  background-image: url("/noteapp/assets/img/lupe.svg");
   background-position: 10px 50%;
   background-repeat: no-repeat;
   font-size: 16px;
